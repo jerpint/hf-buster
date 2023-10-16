@@ -1,3 +1,4 @@
-git+https://github.com/jerpint/buster
+buster-doctalk==1.0.19
 huggingface-hub
 gradio
+promptlayer
