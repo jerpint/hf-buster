@@ -67,9 +67,10 @@ with block:
     )
     gr.Markdown(
         """
-    #### This chatbot is designed to answer any questions related to the [huggingface transformers](https://huggingface.co/docs/transformers/index) library.
-    #### It uses ChatGPT + embeddings to search the docs for relevant sections and uses them to answer questions. It can then cite its sources back to you to verify the information.
-    #### Note that LLMs are prone to hallucination, so all outputs should always be vetted by users.
+    ## Welcome to Buster!
+    This chatbot is designed to answer any questions related to the [huggingface transformers](https://huggingface.co/docs/transformers/index) library.
+    It uses ChatGPT + embeddings to search the docs for relevant sections and uses them to answer questions. It can then cite its sources back to you to verify the information.
+    Note that LLMs are prone to hallucination, so all outputs should always be vetted by users.
 
     #### The Code is open-sourced and available on [Github](www.github.com/jerpint/buster)
     """
